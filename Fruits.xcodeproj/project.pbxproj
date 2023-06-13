@@ -120,12 +120,12 @@
 		882DC7CE2A28183000BD5045 /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
-				880CCB722A38DB8A00C4F042 /* Data */,
-				880CCB6F2A38DB0900C4F042 /* Model */,
-				88B19B652A2917F900323026 /* View */,
 				88B19B642A2917DA00323026 /* App */,
 				882DC7D32A28183100BD5045 /* Assets.xcassets */,
+				880CCB722A38DB8A00C4F042 /* Data */,
+				880CCB6F2A38DB0900C4F042 /* Model */,
 				882DC7D52A28183100BD5045 /* Preview Content */,
+				88B19B652A2917F900323026 /* View */,
 			);
 			path = Fruits;
 			sourceTree = "<group>";
