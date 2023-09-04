@@ -35,6 +35,15 @@ struct SettingsView: View {
                                 .font(.footnote)
                         }
                     }
+                    
+                    GroupBox(label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ) {                        
+                        SettingsRowView(name: "Developer", content: "Filipe Wolf Boeck")
+                        SettingsRowView(name: "Designer", content: "Robert Petras")
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        SettingsRowView(name: "WebSite", linkLabel: "My GitHub", linkDestination: "https://github.com/filipewb")
+                        SettingsRowView(name: "Make in", content: "SwiftUI")
+                    }
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(
